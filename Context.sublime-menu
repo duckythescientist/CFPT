@@ -1,7 +1,8 @@
 [
     { "caption": "Copy-From" , "command": "cfpt_test_from", "children": 
         [
-            { "caption": "Raw", "command": "cfpt_from_raw"},
+            { "caption": "Normal", "command": "cfpt_from_normal"},
+            { "caption": "Current Encoding", "command": "cfpt_from_current_encoding"},
             { "caption": "Hex Pairs", "command": "cfpt_from_hex"},
             { "caption": "Binary Octets", "command": "cfpt_from_binary"},
             { "caption": "Base64", "command": "cfpt_from_base64"},
@@ -13,7 +14,8 @@
 
     { "caption": "Paste-To" , "command": "cfpt_test_to", "children": 
         [
-            { "caption": "Raw", "command": "cfpt_to_raw"},
+            { "caption": "Normal", "command": "cfpt_to_normal"},
+            { "caption": "Direct Encoding", "command": "cfpt_to_direct_encoding"},
             { "caption": "0xHex", "command": "cfpt_to_zxhex"},
             { "caption": "Hex Pairs", "command": "cfpt_to_hexpairs"},
             { "caption": "\\x All", "command": "cfpt_to_slashx"},
