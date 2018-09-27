@@ -1,0 +1,28 @@
+[
+    { "caption": "Copy-From" , "command": "cfpt_test_from", "children": 
+        [
+            { "caption": "Raw", "command": "cfpt_from_raw"},
+            { "caption": "Hex Pairs", "command": "cfpt_from_hex"},
+            { "caption": "Binary Octets", "command": "cfpt_from_binary"},
+            { "caption": "Base64", "command": "cfpt_from_base64"},
+            { "caption": "URL Encoded", "command": "cfpt_from_urlencode"},
+            { "caption": "\\x Escapes", "command": "cfpt_from_slashx"}
+
+        ]
+    },
+
+    { "caption": "Paste-To" , "command": "cfpt_test_to", "children": 
+        [
+            { "caption": "Raw", "command": "cfpt_to_raw"},
+            { "caption": "0xHex", "command": "cfpt_to_zxhex"},
+            { "caption": "Hex Pairs", "command": "cfpt_to_hexpairs"},
+            { "caption": "\\x All", "command": "cfpt_to_slashx"},
+            { "caption": "\\x Safe", "command": "cfpt_to_slashxsafe"},
+            { "caption": "\\x Minimal", "command": "cfpt_to_slashxminimal"},
+            { "caption": "URL Encoded", "command": "cfpt_to_urlencode"},
+            { "caption": "Base64", "command": "cfpt_to_base64"},
+            { "caption": "C Array", "command": "cfpt_to_carray"}
+
+        ]
+    }
+]
